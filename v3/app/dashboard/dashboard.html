@@ -1,0 +1,90 @@
+<div class="page page-dashboard" data-ng-controller="DashboardCtrl">
+
+    <section>
+        <section class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div data-echarts data-options="pie1.options" style="height: 350px;"></div>
+                    </div>
+                    <div class="col-lg-5">
+                        <h3 class="text-thin">Statistics</h3>
+                        <div class="divider divider-lg divider-dashed"></div>
+                        <p>Bounce Rate</p>
+                        <uib-progressbar class="progressbar-xs progress-rounded" value="34" type="success"></uib-progressbar>
+                        <p>New Visists</p>
+                        <uib-progressbar class="progressbar-xs progress-rounded" value="68" type="info"></uib-progressbar>
+                        <p>Search Traffic</p>
+                        <uib-progressbar class="progressbar-xs progress-rounded" value="52" type="warning"></uib-progressbar>
+                        <p>Modern Browsers</p>
+                        <uib-progressbar class="progressbar-xs progress-rounded" value="77" type="danger"></uib-progressbar>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section> 
+
+
+    <!-- Stats -->
+    <div class="row text-center">
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="btn-icon btn-icon-round btn-icon-lg-alt bg-success">
+                    <span class="ti-stats-up"></span>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2">36 <span class="size-h4">%</span></p>
+                    <p class="text-muted"><span data-translate="GROWTH"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="btn-icon btn-icon-round btn-icon-lg-alt bg-info">
+                    <i class="ti-user"></i>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2">22 <span class="size-h4">%</span></p>
+                    <p class="text-muted"><span data-translate="NEW_USERS"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="btn-icon btn-icon-round btn-icon-lg-alt bg-warning">
+                    <i class="ti-money"></i>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2">81 <span class="size-h4">k</span></p>
+                    <p class="text-muted"><span data-translate="PROFIT"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="btn-icon btn-icon-round btn-icon-lg-alt bg-danger">
+                    <i class="ti-shopping-cart"></i>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2">13 <span class="size-h4">k</span></p>
+                    <p class="text-muted"><span data-translate="SALES"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end stats -->
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="panel panel-default panel-minimal">
+                <div class="divider divider-lg"></div>
+                <div class="panel-body">
+                    <div data-echarts data-options="scatter2.options" style="height: 500px;"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+  
